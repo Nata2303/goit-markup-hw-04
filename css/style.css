@@ -128,6 +128,10 @@ color: var(--menu-brand-color--);
         max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
+background-position: center;
+background-size: cover;
+padding-left: 0;
+padding-right: 0;
 }
 .hero-container {
     margin-left: auto;
@@ -347,7 +351,7 @@ background-color: var(--aktiv-heder--);
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    margin-bottom: 130px;
+    margin-bottom: 72px;
     color: var(--menu-brand-color--);
 }
 .customers-item{
@@ -369,11 +373,13 @@ flex-direction: row;
     align-items: center;
     width: 100%;
     height: 100%;
+    padding: 16px 32px;
     border: 1px solid #8E8F99;
 border-radius: 4px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .customers-icons{
+    position: absolute;
     fill:  #8E8F99 ;
     width: 104px;
     height: 56px;
@@ -483,6 +489,7 @@ padding: 12px 24px;
 color: var(--btn-brand-color--);
 background-color: #4D5AE5;
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-color: var(--primary-brand-color--)
 }
 .btn-list {
     display: flex;
